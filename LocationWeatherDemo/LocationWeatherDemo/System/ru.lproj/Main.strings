@@ -1,0 +1,21 @@
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "5OA-40-Gj2"; */
+"5OA-40-Gj2.text" = "Label";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "KXl-J6-yrS"; */
+"KXl-J6-yrS.title" = "Item";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "cDI-cm-5FM"; */
+"cDI-cm-5FM.text" = "Label";
+
+/* Class = "UILabel"; text = "LabelTemperature"; ObjectID = "iLf-tj-F98"; */
+"iLf-tj-F98.text" = "LabelTemperature";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "uET-Nb-FcV"; */
+"uET-Nb-FcV.text" = "Label";
+
+/* Class = "UILabel"; text = "LabelDate"; ObjectID = "usF-NN-zjj"; */
+"usF-NN-zjj.text" = "LabelDate";
+
+/* Class = "UILabel"; text = "LabelDay"; ObjectID = "vLT-QW-0hJ"; */
+"vLT-QW-0hJ.text" = "LabelDay";
