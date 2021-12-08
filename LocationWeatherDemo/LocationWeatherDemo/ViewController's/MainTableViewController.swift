@@ -92,6 +92,7 @@ class MainTableViewController: UITableViewController, WeatherViewModelDelegate{
                     cell.labelDay.text = DateFormat.shared.dateFormat(dateDouble: weather?.getDayOfDailyWeather(index: indexPath.row - 2) ?? 0.0, format: "E, d MMM yyyy")
                     cell.labelTemperature.text = "\(dailyTemperature)" + "ºF".localized()
                 }
+                return cell
             }
         } else if !NetworkMonitor.shared.isConnected {
             if indexPath.row == 0{
@@ -108,6 +109,7 @@ class MainTableViewController: UITableViewController, WeatherViewModelDelegate{
                 cell.iconWeather.image = UIImage(named: archiveOfDailyWeather[indexPath.row - 2].value(forKey: "icon") as! String)
                 cell.labelDay.text = archiveOfDailyWeather[indexPath.row - 2].value(forKey: "date") as? String
                 cell.labelTemperature.text = archiveOfDailyWeather[0].value(forKey: "temperature") as? String
+                return cell
             }
         }
         
